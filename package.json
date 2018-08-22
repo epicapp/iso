@@ -1,0 +1,36 @@
+{
+  "name": "isomorphic",
+  "version": "1.0.0",
+  "description": "Prototype of a new journaling app",
+  "babel": {
+    "presets": [
+      "env",
+      "stage-0"
+    ]
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tape -r babel-register */*spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshdmiller/journal-isomorphic.git"
+  },
+  "author": "Josh David Miller (https://joshdavidmiller.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshdmiller/journal-isomorphic/issues"
+  },
+  "homepage": "https://github.com/joshdmiller/journal-isomorphic#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "immutable": "^4.0.0-rc.9",
+    "rxjs": "^5.5.7"
+  },
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
